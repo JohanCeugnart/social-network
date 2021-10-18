@@ -47,6 +47,11 @@ social-network
    └─ globals.css
 
 ```
+
+#### Pages
+
+nom des pages: camelCase
+
 #### Code
 
 - Utilisation du module Prettier pour l'indentation
@@ -55,6 +60,7 @@ social-network
 - SCSS: Toutes les couleurs doivent etre mise dans des variables
 - Nom de fonctions: camelCase
 - Le code doit etre commentés
+- nom des composants: PascalCase (obligation de NextJS)
 
 #### Git
 
