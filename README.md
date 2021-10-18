@@ -1,9 +1,11 @@
 # Documentation du projet
-
+18 10 2021
 ## Présentation
 
-Projet réalisé par Louis Allard et Johan Ceugnard.
+Projet réalisé par Louis Allard et Johan Ceugnart.
+
 http://wwww.louisallard.fr
+
 https://johan-ceugnart.fr/
 
 L'objectif est de réaliser un réseau social  tout en se challengeant sur une technologie ignoré a la base : le NextJS
@@ -47,8 +49,20 @@ social-network
 ```
 #### Code
 
-- Utilisation du module Prettier pour l'indetation
-- Variables: camelCase
+- Utilisation du module Prettier pour l'indentation
+- Variables js et scss: camelCase
+- variables en anglais
 - SCSS: Toutes les couleurs doivent etre mise dans des variables
-- Nom de fonction: minuscule
-- 
+- Nom de fonctions: camelCase
+- Le code doit etre commentés
+
+#### Git
+
+- nom de branches en anglais et en CamelCase
+- Commit en anglais. Commencent avec une majuscule et se termine par un point
+- Les PR vers la branche principale doivent etre faites par l'autre partie
+- Les merges doivent vers la branche pincipales doivent etre fait par l'autre partie
+
+#### Gestionnaire de package utilisé
+
+npm
