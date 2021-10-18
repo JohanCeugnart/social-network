@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Documentation du projet
+18 10 2021
+## Présentation
 
-## Getting Started
+Projet réalisé par Louis Allard et Johan Ceugnart.
 
-First, run the development server:
+http://wwww.louisallard.fr
 
-```bash
-npm run dev
-# or
-yarn dev
+https://johan-ceugnart.fr/
+
+L'objectif est de réaliser un réseau social  tout en se challengeant sur une technologie ignoré a la base : le NextJS
+
+### Stack
+
+- NextJS
+- JavaScript
+- SCSS
+
+## Maquette
+
+https://xd.adobe.com/view/ab12a5c1-ebf1-4766-963f-7ef8ee62d81b-fe41/screen/38680705-37e2-4034-99fd-3bc02735d4fb/
+
+## Organisation du travail
+
+Backlog sous forme de backlog dans le gitproject
+
+## Regles 
+
+#### Arbre
+
+```
+social-network
+├─ HOWTODOC.md
+├─ README.md
+├─ _README.md
+├─ package.json
+├─ pages
+│  ├─ _app.js
+│  ├─ api
+│  │  └─ hello.js
+│  └─ index.js
+├─ public
+│  ├─ favicon.ico
+│  └─ vercel.svg
+└─ styles
+   ├─ Home.module.css
+   └─ globals.css
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Pages
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+nom des pages: camelCase
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Code
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Utilisation du module Prettier pour l'indentation
+- Variables js et scss: camelCase
+- variables en anglais
+- SCSS: Toutes les couleurs doivent etre mise dans des variables
+- Nom de fonctions: camelCase
+- Le code doit etre commentés
+- nom des composants: PascalCase (obligation de NextJS)
 
-## Learn More
+#### Git
 
-To learn more about Next.js, take a look at the following resources:
+- nom de branches en anglais et en CamelCase
+- Commit en anglais. Commencent avec une majuscule et se termine par un point
+- Les PR vers la branche principale doivent etre faites par l'autre partie
+- Les merges doivent vers la branche pincipales doivent etre fait par l'autre partie
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Gestionnaire de package utilisé
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm
