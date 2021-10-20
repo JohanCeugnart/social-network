@@ -20,6 +20,8 @@ L'objectif est de réaliser un réseau social  tout en se challengeant sur une t
 
 https://xd.adobe.com/view/ab12a5c1-ebf1-4766-963f-7ef8ee62d81b-fe41/screen/38680705-37e2-4034-99fd-3bc02735d4fb/
 
+Conception du logo: https://www.freelogoservices.com/fr/home-return
+
 ## Organisation du travail
 
 Backlog sous forme de backlog dans le gitproject
