@@ -1,0 +1,8 @@
+
+@media (max-width: 600px) {
+    .logo {
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+}
