@@ -1,10 +1,10 @@
 import styles from '../styles/Home.module.css'
-import HelloWorld from './helloWorld'
+import Header from './header'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-        <HelloWorld />
+        <Header />
     </div>
   )
 }
