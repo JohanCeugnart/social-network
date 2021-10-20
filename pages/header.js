@@ -4,8 +4,8 @@ import logo from '../public/logo.png'
 
 export default function header() {
     return (
-        <>
-        <Image className={styles.logo} src={logo} alt="logo"/>
-        </>
+        <div className={styles.dataContainer}>
+            <Image className={styles.logo} src={logo} alt="logo"/>
+        </div>
     )
  }

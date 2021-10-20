@@ -1,5 +1,10 @@
 
 @media (max-width: 600px) {
+    .dataContainer {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
     .logo {
         display: flex;
         margin: auto;
