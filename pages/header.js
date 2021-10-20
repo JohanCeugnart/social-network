@@ -5,9 +5,12 @@ import { top } from '../lng/fr.js'
 
 export default function header() {
     return (
+        <>
+        <div className={styles.connect}>{ top.connect }</div>
         <div className={styles.dataContainer}>
-            <Image className={styles.logo} src={logo} alt="logo"/><br />
+            <Image className={styles.logo} src={logo} alt="logo"/>
             <div className={styles.txt}>{ top.txt }</div>
         </div>
+    </>
     )
  }

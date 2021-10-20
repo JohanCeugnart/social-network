@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: Futura, sans-serif;
-    background-color: #89B7B2;
+  background-color: #89B7B2;
+  color: white;
 }
 
 a {

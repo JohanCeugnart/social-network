@@ -1,5 +1,6 @@
 const top = {
-    txt: "s'inscrire"
+    txt: "s'inscrire",
+    connect: "connexion"
 }
 
 export { top };

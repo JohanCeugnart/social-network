@@ -1,9 +1,18 @@
 .txt {
     text-transform: uppercase;
     font-weight: normal;
-    color: white;
     font-size: 1.5rem;
     margin-top: 1.5rem;
+}
+
+.connect {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: right;
+    position: relative;
+    padding: 1rem 1rem 0 0;
+    float: right;
 }
 
 @media (max-width: 600px) {
@@ -11,9 +20,9 @@
         display: block;
         margin: auto;
         text-align: center;
+        position: relative;
     }
     .logo {
-        display: flex;
         margin: auto;
         text-align: center;
     }
